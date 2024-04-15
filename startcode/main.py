@@ -1,4 +1,5 @@
-import pygame, sys  
+import pygame, sys
+from pygame.locals import QUIT
 
 pygame.init()
 DISPLAYSURF = pygame.display.set_mode((200, 50))
