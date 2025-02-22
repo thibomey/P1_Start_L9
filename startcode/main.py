@@ -43,7 +43,7 @@ while True:
                 penseel += 1
 
         #Colors
-        '''
+        ''''
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_r:
                 color = (255, 0, 0)
@@ -53,8 +53,10 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_b:
                 color = (0, 0, 255)
+        pygame.display.update()
         '''
         #IOP = RGB kleuren veranderen door toetsen
+        
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_i:
                 Color_r +=10
